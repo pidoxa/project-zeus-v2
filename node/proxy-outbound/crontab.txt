@@ -1,0 +1,8 @@
+# Zeus Cluster - Cron Jobs
+
+# CMS Agent
+@reboot php -q /opt/zeus/agent.php
+
+# Git Update
+# 1 * * * * sh /var/www/html/update.sh
+
